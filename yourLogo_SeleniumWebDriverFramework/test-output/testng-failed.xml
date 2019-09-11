@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TSContactUsSuite]">
+  <parameter name="browser" value="IE"/>
+  <test name="TSContactUsTest1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.ContactUsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="sendingCompletedMessageToCustomerServices"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ContactUsPageTest -->
+    </classes>
+  </test> <!-- TSContactUsTest1(failed) -->
+  <test name="TSContactUsTest2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.ContactUsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="sendingCompletedMessageToCustomerServices"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ContactUsPageTest -->
+    </classes>
+  </test> <!-- TSContactUsTest2(failed) -->
+  <test name="TSContactUsTest3(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="tests.ContactUsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="sendingCompletedMessageToCustomerServices"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ContactUsPageTest -->
+    </classes>
+  </test> <!-- TSContactUsTest3(failed) -->
+</suite> <!-- Failed suite [TSContactUsSuite] -->
